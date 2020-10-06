@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+
+.wrapper{
+    position: fixed;
+    width: 200px; 
+}
+
+.wrapper .sidebar{
+    width: 200px;
+    height: 100vh;
+    background: grey;
+    padding: 30px 0 ;
+    margin-left: 10px;
+}
+
+.wrapper .sidebar h2{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.wrapper .sidebar ul li{
+    padding: 10px;
+}
+
+.wrapper .sidebar ul li a{
+    display: block;
+    color: black;
+    margin-left: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+
